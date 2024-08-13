@@ -29,5 +29,5 @@ ANTHROPIC_API_KEY=
 
 # Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
 # See the documentation for all the connection string options: https://pris.ly/d/connection-strings
-POSTGRES_PRISMA_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiNDA4NjY1MmQtNDUyNS00NDY2LWIzYjAtYTBkZTFkODM4M2IyIiwidGVuYW50X2lkIjoiYjhiYmVkZWI0N2EzMmY0MDcyNTAzNWNjNjU1YWFjNWQ5OWQ2NWQ4MTE2NTczMDZmNTNhY2ZmMDkxYWMwY2MwNyIsImludGVybmFsX3NlY3JldCI6IjcyY2E1ZWFiLTRlMjktNDgxZi05ZTM2LWU4YTM4NjAzYzFmNSJ9.ttNeCt4I7c3q4sVAGx2vAytcPBjFGx1_V-xULIU6PhQ"
+POSTGRES_PRISMA_URL=""
 BLOB_READ_WRITE_TOKEN="vercel_blob_rw_..."
