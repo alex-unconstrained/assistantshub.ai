@@ -19,7 +19,6 @@ export default function Home() {
                 loop: true,
               }}
             />
-            <br />
             is UnconstrainED.
           </h1>
         </div>
