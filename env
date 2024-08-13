@@ -6,7 +6,7 @@ AUTH0_CLIENT_ID='{yourClientId}'
 AUTH0_CLIENT_SECRET='{yourClientSecret}'
 
 # Add a list of Auth0 user ids that can access the Admin portal
-ADMIN_USERS=["alex@unconstrained.work"]
+ADMIN_USERS=["alex@unconstrained.work", "google-oauth2|117734953151531108096"]
 
 # AWS Parameters
 AWS_S3_BUCKET=
