@@ -1,0 +1,33 @@
+# Configure AUTH0 for login - https://auth0.com/docs/quickstart/webapp/nextjs/01-login
+AUTH0_SECRET='use [openssl rand -hex 32] to generate a 32 bytes value'
+AUTH0_BASE_URL='http://localhost:3001'
+AUTH0_ISSUER_BASE_URL='https://{yourDomain}'
+AUTH0_CLIENT_ID='{yourClientId}'
+AUTH0_CLIENT_SECRET='{yourClientSecret}'
+
+# Add a list of Auth0 user ids that can access the Admin portal
+ADMIN_USERS=[]
+
+# AWS Parameters
+AWS_S3_BUCKET=
+AWS_REGION=us-west-2
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+
+# OpenAI API Key for Assistants Hub
+OPENAI_API_KEY=
+# Google AI Studio API Key for Assistants Hub
+GOOGLE_AI_STUDIO_API_KEY=
+# Groq Cloud API Key for Assistants Hub
+GROQ_CLOUD_API_KEY=
+# Anthropic API Key for Assistants Hub
+ANTHROPIC_API_KEY=
+
+
+# Environment variables declared in this file are automatically made available to Prisma.
+# See the documentation for more detail: https://pris.ly/d/prisma-schema#accessing-environment-variables-from-the-schema
+
+# Prisma supports the native connection string format for PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and CockroachDB.
+# See the documentation for all the connection string options: https://pris.ly/d/connection-strings
+POSTGRES_PRISMA_URL="postgresql://.."
+BLOB_READ_WRITE_TOKEN="vercel_blob_rw_..."
